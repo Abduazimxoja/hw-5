@@ -12,7 +12,6 @@ body {
    color: #888888;
 }
 
-
 .header__arrow {
    display: block;
    position: absolute;
@@ -196,7 +195,6 @@ body {
    }
 }
 
-
 .form {
    margin-bottom: 130px;
    display: flex;
@@ -233,12 +231,15 @@ body {
    }
 
    &__button {
-      background: #f9962b;
+      background: #f9962be9;
       font-weight: 700;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #ffffff;
+      &:hover {
+         background: #f9962b;
+      }
    }
 }
 

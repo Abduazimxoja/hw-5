@@ -289,12 +289,15 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .form__button {
-  background: #f9962b;
+  background: rgba(249, 150, 43, 0.9137254902);
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
+}
+.form__button:hover {
+  background: #f9962b;
 }
 
 .footer {
